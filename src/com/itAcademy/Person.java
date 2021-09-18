@@ -18,13 +18,6 @@ public class Person {
     private int salary;
     private int age;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getPosition() {
         return position;
@@ -32,6 +25,14 @@ public class Person {
 
     public void setPosition(String position) {
         this.position = position;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
